@@ -1,0 +1,85 @@
+body{
+
+    background-color: aliceblue;
+    width: 1024px;
+    margin: 50px;
+}
+.Figure{
+    margin-bottom: 10px;
+
+}
+
+.Figure_down{
+    margin-top: 10px;
+
+}
+.d1{
+    height: 0; 
+width: 512px;
+border-top: 50px solid #696969;
+border-left: 0px solid transparent;
+border-right: 50px solid transparent;
+
+}
+.d2{
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #696969;
+    margin-left: 100px;
+
+}
+.grid_header{
+
+display: grid;
+grid-template-columns:  512px 512px;
+margin-bottom: 10px;
+
+}
+.name{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    margin:12px;
+}
+.vacantion{
+    font-family: URW Chancery L, cursive; 
+    margin-top: -2px; 
+    font-size: 12px;
+   
+}
+.disc{
+    font-family: URW Chancery L, cursive; 
+
+}
+img{
+    margin:20px; 
+
+}
+.grid_main{
+
+    display: grid;
+    grid-template-columns:  300px 724px;
+    margin-bottom: 10px;
+}
+.pers_date{
+    
+}
+
+.d3{
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #696969;
+    margin-left: 924px;
+    
+}
+.d4{
+    height: 0; 
+width: 512px;
+border-bottom: 50px solid #696969;
+border-left: 50px solid transparent;
+border-right: 0px solid transparent;
+margin-left: 512px;
+}
