@@ -16,7 +16,7 @@ body{
 .d1{
     height: 0; 
 width: 512px;
-border-top: 50px solid #696969;
+border-top: 50px solid #302A2A;
 border-left: 0px solid transparent;
 border-right: 50px solid transparent;
 
@@ -26,7 +26,7 @@ border-right: 50px solid transparent;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 15px solid #696969;
+    border-top: 15px solid #302A2A;
     margin-left: 100px;
 
 }
@@ -36,6 +36,17 @@ display: grid;
 grid-template-columns:  512px 512px;
 margin-bottom: 10px;
 
+}
+
+table {
+    width: 100%; /* Ширина таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 0px; /* Расстояние между ячейками */
+   }
+   td, th {
+    text-align: left;
+    padding: 7px; /* Поля вокруг текста */
+   }
 }
 .name{
     font-family: Impact, fantasy;
@@ -62,23 +73,41 @@ img{
     grid-template-columns:  300px 724px;
     margin-bottom: 10px;
 }
-.pers_date{
-    
-}
+.pers_date_1{
 
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.Social{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.Keys{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
 .d3{
     width: 0; 
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 15px solid #696969;
+    border-bottom: 15px solid #302A2A;
     margin-left: 924px;
     
 }
 .d4{
     height: 0; 
 width: 512px;
-border-bottom: 50px solid #696969;
+border-bottom: 50px solid #302A2A;
 border-left: 50px solid transparent;
 border-right: 0px solid transparent;
 margin-left: 512px;
