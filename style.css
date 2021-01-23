@@ -1,0 +1,191 @@
+
+.resume{
+    background-color: aliceblue;
+    border: 3px solid rgb(57, 59, 66, .05);
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    font-weight: normal; /* Убираем жирное начертание */
+    width: 1024px;
+    margin: 50px;
+}
+.Figure{
+    margin: -3px;
+    margin-bottom: 10px;
+
+}
+
+.Figure_down{
+    margin: -4px;
+    margin-top: 10px;
+
+}
+.d1{
+    height: 0; 
+    width: 462px;
+    border-top: 75px solid #302A2A;
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+
+}
+.d2{
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #302A2A;
+    margin-top: -3px;
+    margin-left: 100px;
+
+}
+.grid_header{
+
+display: grid;
+grid-template-columns:  512px 512px;
+margin-bottom: 10px;
+margin: 0px;
+
+}
+
+table {
+    padding :0; 
+    margin: 0;/* Ширина таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 0px; /* Расстояние между ячейками */
+   }
+td, th {
+    text-align: left;
+    padding: 7px; /* Поля вокруг текста */
+   }
+
+.name{
+    font-family: Impact, fantasy;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.vacantion{
+    font-family: URW Chancery L, cursive; 
+    margin-top: -2px; 
+    font-size: 18px;
+   
+}
+.disc{
+    font-family: URW Chancery L, cursive; 
+
+}
+img{
+    margin:20px; 
+
+}
+.grid_main{
+
+    display: grid;
+    grid-template-columns:  300px 50px 672px;
+    margin-bottom: 10px;
+}
+.left_info{
+    padding-left: 10px
+}
+.center_info{
+ border-right: 2px solid black;
+  
+}
+.right_info{
+    padding-left: 30px;
+}
+.experi{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+}
+.title{
+    display: flex;
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px;
+}
+.fig_1 {
+    height: 25px; 
+    width: 25px; 
+    margin: 5px 20px 0 0;
+    background: black;
+    position: absolute;
+    left: 396px;
+}
+.fig_1:before {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute; 
+    left: 25px; 
+    top: 0px;
+    border-left: 15px solid black;
+    border-top: 12.5px solid transparent;
+    border-bottom: 12.5px solid transparent;
+}
+.fig_1:after {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute; 
+    left: 0px; 
+    top: 25px;
+    border-top: 15px solid gray;
+    border-left: 15px solid transparent;
+}
+
+.table_2{
+
+    font-weight: bold;
+}
+.table_2 td{
+    padding: 2px;
+}
+.pers_date_1{
+
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.Social{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.Keys{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+.soft{
+    display: block;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid #1A1616; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+
+}
+
+
+.d3{
+    width: 0; 
+    height: 0;
+    margin-top: -8px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #302A2A;
+    margin-left: 924px;
+    
+}
+.d4{
+    padding:0;
+    height: 0; 
+    width: 512px;
+    border-bottom: 75px solid #302A2A;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    margin-left: 469px;
+}
