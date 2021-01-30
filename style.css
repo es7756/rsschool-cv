@@ -88,8 +88,29 @@ p{
     font-size: 60%;
     word-wrap: break-word;
 }
+.title{
+    display: flex;
+    flex-direction: column; 
+}
+.title_info{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.title_info_text{
+    padding: 10px;
+}
+.title_info div:nth-child(1){
+    flex:none;
+    width: 60px;
+}
+.title_info_text ul{
+    padding-left: 20px;
+}
+
 .tittle{
-    display: block;
+    display: flex;
     border-bottom: 2px solid #1A1616; 
     font-weight: normal; /* Убираем жирное начертание */
     padding-bottom: 5px;
